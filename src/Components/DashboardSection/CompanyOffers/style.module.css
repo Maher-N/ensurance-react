@@ -1,0 +1,31 @@
+.offerCard {
+    width: 420px;
+    padding: 15px;
+    background: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.companyInfo{
+
+}
+.companyInfo > p {
+    font-size: 12px;
+    margin: 0;
+}
+.cardAction{
+    display: flex;
+    gap:5px;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+.imgWidth{
+    width: 50px;
+}

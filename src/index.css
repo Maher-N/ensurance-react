@@ -1,0 +1,68 @@
+
+body {
+  margin: 0;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #F5F5F5 !important;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: Baloo_Thambi_Bold;
+  src: url(./fonts/baloo-thambi/BalooThambi2-Bold.ttf) ;
+}
+
+@font-face {
+  font-family: Baloo_Thambi_Extra_Bold;
+  src: url(./fonts/baloo-thambi/BalooThambi2-ExtraBold.ttf) ;
+}
+
+@font-face {
+  font-family: Baloo_Thambi_Medium;
+  src: url(./fonts/baloo-thambi/BalooThambi2-Medium.ttf);
+}
+
+@font-face {
+  font-family: Baloo_Thambi_Regular;
+  src: url(./fonts/baloo-thambi/BalooThambi2-Regular.ttf);
+}
+
+@font-face {
+  font-family: Baloo_Thambi_SemiBold;
+  src: url(./fonts/baloo-thambi/BalooThambi2-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: Baloo_Thambi2;
+  src: url(./fonts/baloo-2-2/Baloo2-Medium.ttf);
+}
+
+@font-face {
+  font-family: Baloo_Thambi2_Regular;
+  src: url(./fonts/baloo-2-2/Baloo2-Regular.ttf);
+}
+
+@font-face {
+  font-family: Tajawal;
+  src: url(./fonts/tajawal/Tajawal-Regular.ttf);
+}
+
+.Ibutton{
+  font-size : 16px;
+  color:#fff;
+  border-radius: 5px;
+  background:  linear-gradient(90deg, #00A0D7 0%, #96C92E 100%);
+  border: 0px;
+  padding: 6px 10px;
+  font-family: "Baloo_Thambi_SemiBold"; 
+} 
+
+.imgWidth50{
+  width: 50px;
+}

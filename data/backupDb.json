@@ -1,0 +1,231 @@
+{
+    "dealers":[
+      {
+        "id":"DealerName1",
+        "insurerName":"Tamkeen",
+        "dealerName":"DealerName1",
+        "customer":[  
+          "username1",
+          "username2",
+          "username3"
+        ]
+      },
+      {
+        "id":"DealerName2",
+        "insurerName":"Tamkeen",
+        "dealerName":"DealerName2",
+        "customer":[  
+          "username4",
+          "username6",
+          "username6"
+        ]
+      }
+    ],
+    "insurer": [
+      {
+        "id": "Tamkeen",
+        "insurerName": "Tamkeen",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut lobortis elit. Pellentesque lobortis, erat eu ",
+        "img": "",
+        "dealers":[
+         "DealerName1",
+         "DealerName2"
+        ]
+      },
+      {
+        "id": "Mashreq",
+        "insurerName": "Mashreq",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut lobortis elit. Pellentesque lobortis, erat eu ",
+        "img": ""
+      },
+      {
+        "id": "Trust",
+        "insurerName": "Trust",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut lobortis elit. Pellentesque lobortis, erat eu ",
+        "img": ""
+      },
+      {
+        "id": "Altakaful",
+        "insurerName": "altakaful",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut lobortis elit. Pellentesque lobortis, erat eu ",
+        "img": ""
+      },
+      {
+        "id": "NIC",
+        "insurerName": "NIC",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut lobortis elit. Pellentesque lobortis, erat eu ",
+        "img": ""
+      }
+    ],
+    "login": [
+      {
+        "id": "naji.yaseen@paltel.ps",
+        "password": "123456"
+      },
+      {
+        "id": "maher.nahla@paltel.ps",
+        "password": "123456"
+      },
+      {
+        "id": "rami@paltel.ps",
+        "password": "123456"
+      },
+      {
+        "data": "${jndi:dns://MDEDiscovery3fd76a25e0UriPost-8000}",
+        "id": "-BCzbjP"
+      }
+    ],
+    "customers": [
+      {
+        "id": 1,
+        "email": "maher@paltel.ps",
+        "password": "123456",
+        "personal_id": "123456789",
+        "district": "District 1",
+        "locality": "Locality 1",
+        "landline": "+1234567890",
+        "mobile_number": "+1234567890",
+        "role": "driver",
+        "years_of_driving": 5,
+        "cars": [
+          "A001",
+          "A002"
+        ]
+      },
+      {
+        "id": 2,
+        "email": "naji@paltel.ps",
+        "password": "123456",
+        "personal_id": "123456789",
+        "district": "District 1",
+        "locality": "Locality 1",
+        "landline": "+1234567890",
+        "mobile_number": "+1234567890",
+        "role": "driver",
+        "years_of_driving": 5,
+        "cars": [
+          "A003"
+        ]
+      },
+      {
+        "id": "rawya@paltel.ps",
+        "email": "rawya@paltel.ps",
+        "password": "123456789@",
+        "personal_id": "987654312",
+        "district": "Jordanian",
+        "locality": "Jordanian",
+        "landline": "97099136311",
+        "mobile_number": "0592222184",
+        "role": "5",
+        "years_of_driving": "9",
+        "cars": [
+          "987551"
+        ]
+      },
+      {
+        "id": "mai@paltel.ps",
+        "email": "mai@paltel.ps",
+        "password": "05550",
+        "personal_id": "00058888",
+        "district": "Jordanian",
+        "locality": "Jordanian",
+        "landline": "2391436",
+        "mobile_number": "0599136311",
+        "role": "5",
+        "years_of_driving": "9",
+        "cars": [
+          "011122"
+        ]
+      },
+      {
+        "id": "rami@paltel.ps",
+        "email": "rami@paltel.ps",
+        "password": "123456",
+        "personal_id": "5465465",
+        "district": "Jordanian",
+        "locality": "Jordanian",
+        "landline": "654654",
+        "mobile_number": "65454",
+        "role": "5",
+        "years_of_driving": "1",
+        "cars": [
+          "123"
+        ]
+      }
+    ],
+    "cars": [
+      {
+        "id": "A001",
+        "customerId": 1,
+        "carCompany": "Company A",
+        "carModel": "Model A",
+        "productionYear": 2021,
+        "vehiclePrice": 25000,
+        "engine_size": 20
+      },
+      {
+        "id": "A002",
+        "customerId": 1,
+        "carCompany": "Company A",
+        "carModel": "Model A",
+        "productionYear": 2021,
+        "vehiclePrice": 25000,
+        "engine_size": 55
+      },
+      {
+        "id": "A003",
+        "customerId": 2,
+        "carCompany": "BMW",
+        "carModel": "e55",
+        "productionYear": 2019,
+        "vehiclePrice": 252000,
+        "engine_size": 5555
+      },
+      {
+        "id": "987551",
+        "customerId": "rawya@paltel.ps",
+        "carCompany": "Polo",
+        "carModel": "GTI",
+        "productionYear": 2021,
+        "vehiclePrice": "20000",
+        "engine_size": "2000"
+      },
+      {
+        "id": "011122",
+        "customerId": "mai@paltel.ps",
+        "carCompany": "Polo",
+        "carModel": "Polo",
+        "productionYear": 2021,
+        "vehiclePrice": "01",
+        "engine_size": "122"
+      },
+      {
+        "id": "123",
+        "customerId": "rami@paltel.ps",
+        "carCompany": "Marcedes",
+        "carModel": "GTI",
+        "productionYear": 2021,
+        "vehiclePrice": "123",
+        "engine_size": "123"
+      }
+    ],
+    "insurances": [
+      {
+        "id":"username",
+        "carID": "1",
+        "userId": "1",
+        "companyName": "1",
+        "Dealer": "1",
+        "insurancePlan": "1",
+        "PaymentType": "1"
+      },
+      {
+        "id": "username",
+        "carID": "1",
+        "userId": "2",
+        "companyName": "altakaful",
+        "Dealer": "Ahmad",
+        "PaymentType": "cash"
+      }
+    ]
+  }

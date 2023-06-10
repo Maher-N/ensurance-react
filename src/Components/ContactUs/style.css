@@ -1,0 +1,127 @@
+.body {
+    width: 100%;
+    height: 683px;
+}
+
+.title {
+    position: relative;
+    font-family: Baloo_Thambi2_Regular;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    text-align: center;
+    background: linear-gradient(124.08deg, #00A0D7 16.41%, #96C92E 93.14%), #2274A5;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-emphasis-color: transparent;
+}
+
+.half_circle {
+    width: 70px;
+    height: 30px;
+    position: absolute;
+    background-image: url('../../images/half_circle.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 1620px;
+    right: 0px !important;
+}
+
+.form_wrapper {
+    position: absolute;
+    width: 100%;
+    top: 1700px;
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+    padding: 0 10% 0 10%;
+}
+
+
+.form_wrapper .form {
+    width: 35%;
+    height: inherit;
+}
+
+
+.form_wrapper .address {
+    width: 40%;
+    height: inherit;
+    width: 576px;
+    height: 421px;
+    font-family: Baloo_Thambi2_Regular;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #505050;
+
+}
+
+.lead {
+    font-family: Baloo_Thambi2_Regular;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.15rem;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #505050;
+
+}
+
+.form-outline .form-control~.form-label {
+    font-family: Baloo_Thambi2_Regular !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #D8D8D8;
+}
+
+.form-outline .form-control {
+    height: 50px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+
+.message {
+    height: 186px !important;
+}
+
+.send {
+    border: double 2px transparent;
+    border-radius: 5px;
+    background-image: radial-gradient(circle at top left, #96C92E -4.65%, #00A0D7 98.14%);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    text-align: center;
+    box-shadow: none;
+}
+
+.send span {
+    font-family: Baloo_Thambi2_Regular;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 37px;
+    color: #FFFFFF;
+}
+
+.bootom_icon {
+    width: 35.2px;
+    height: 20px;
+    position: absolute;
+    background-image: url('../../images/left_centr_icon_header.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 2180px;
+    left: 3% !important;
+}

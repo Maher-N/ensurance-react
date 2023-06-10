@@ -1,0 +1,10 @@
+.img_logo {
+    width: 109px;
+    height: 37px;
+    position: relative;
+    /* background-image: url('/logo.svg'); */
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 28px;
+    left: 38px;
+}

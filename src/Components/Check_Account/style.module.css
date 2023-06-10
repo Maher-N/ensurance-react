@@ -1,0 +1,32 @@
+.sperator_wrapper {
+    display: flex;
+    position: relative;
+    color: #E0E0E0;
+}
+
+.seprator {
+    border-top: 1px solid #928f8f;
+    width: 30%;
+
+}
+
+.text {
+    font-family: Baloo_Thambi_Regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: #3C5984;
+    position: relative;
+    bottom: 30px;
+}
+
+.colord_text {
+    background: linear-gradient(91.78deg, #00A0D7 30.09%, #96C92E 109.46%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-emphasis-color: transparent;
+    cursor: pointer;
+}

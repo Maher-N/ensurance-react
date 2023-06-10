@@ -1,0 +1,15 @@
+.customeTable {
+  flex-shrink: 0;
+
+  width: 40%;
+
+  max-width: 100%;
+
+  padding-right: calc(var(--mdb-gutter-x) * 0.5);
+
+  padding-left: calc(var(--mdb-gutter-x) * 0.5);
+
+  margin-top: var(--mdb-gutter-y);
+
+  text-align: inherit;
+}

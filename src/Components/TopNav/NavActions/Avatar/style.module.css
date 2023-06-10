@@ -1,0 +1,7 @@
+.Avatar{
+    width:35px;
+    height: 35px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 6px 0px #0000000F;
+    background-color: #d1d1d1;
+}

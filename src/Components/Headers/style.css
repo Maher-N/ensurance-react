@@ -1,0 +1,121 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    color: #B0B0B0;
+    align-items: baseline;
+    margin: 0 32.9px 0px 0px;
+}
+
+.header ul {
+    display: flex;
+    width: 100%;
+    color: #B0B0B0;
+    gap: 79px;
+    justify-content: flex-end;
+}
+
+.header ul li {
+    display: flex;
+    text-decoration: none;
+    font-family: Baloo_Thambi_Regular;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    color: #B0B0B0;
+}
+
+.navbarItem {
+    justify-content: flex-end !important;
+    font-family: Baloo_Thambi_Medium;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 30px !important;
+    margin: 0 32.9px 0px 0px;
+    display: flex;
+    gap: 49px;
+}
+
+.navbar {
+    box-shadow: none;
+    background-color: #F5F5F5 !important;
+}
+
+/* .header_logo {
+    width: 109px;
+    height: 37px;
+    position: relative;
+    background-image: url('../../images/Insurance_Logo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    top:28px;
+    left: 31px;
+} */
+
+.navbar-collapse {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    font-weight: 600 !important;
+    color: #003C71;
+    border: 2px solid;
+    border-image-slice: 1;
+    border-width: 2px;
+    border-image-source: linear-gradient(to left, #00A0D7 0%, #96C92E 108.74%);
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-family: Baloo_Thambi2;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    color: #B0B0B0;
+}
+
+.subscribe {
+    width: 147px;
+    border: double 2px transparent;
+    border-radius: 5px;
+    background-image: linear-gradient(#F5F5F5, #F5F5F5), radial-gradient(circle at top left, #96C92E -4.65%, #00A0D7 98.14%);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    text-align: center;
+}
+
+.subscribe span {
+    background: linear-gradient(91.78deg, #00A0D7 30.09%, #96C92E 109.46%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-emphasis-color: transparent;
+}
+
+
+@media only screen and (max-width: 991px) {
+    .navbar-light .navbar-nav .nav-link.active {
+        width: 5%;
+    }
+
+    .navbarItem {
+        gap: 10px;
+    }
+
+    .navbar-collapse {
+        background-color: #efefef;
+        height: 300px !important;
+        z-index: 10000;
+    }
+
+    .fa-bars {
+        margin-top: 20px;
+    }
+
+}

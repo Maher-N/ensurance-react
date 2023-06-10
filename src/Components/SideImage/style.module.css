@@ -1,0 +1,6 @@
+.img_fluid {
+    width: 100%;
+    height: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,460 @@
+{
+  "dealers": [
+    {
+      "id": "lama1@paltel.ps",
+      "insurerId": "Tamkeen",
+      "dealerName": "lama1@paltel.ps"
+    },
+    {
+      "id": "Rami@gsg.com",
+      "insurerId": "Tamkeen",
+      "dealerName": "Rami@gsg.com"
+    }
+  ],
+  "insurer": [
+    {
+      "id": "Tamkeen",
+      "insurerName": "Tamkeen",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut lobortis elit. Pellentesque lobortis, erat eu ",
+      "img": "",
+      "dealers": [
+        "DealerName1",
+        "DealerName2"
+      ]
+    },
+    {
+      "id": "Mashreq",
+      "insurerName": "Mashreq",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut lobortis elit. Pellentesque lobortis, erat eu ",
+      "img": ""
+    },
+    {
+      "id": "Trust",
+      "insurerName": "Trust",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut lobortis elit. Pellentesque lobortis, erat eu ",
+      "img": ""
+    },
+    {
+      "id": "Altakaful",
+      "insurerName": "altakaful",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut lobortis elit. Pellentesque lobortis, erat eu ",
+      "img": ""
+    },
+    {
+      "id": "NIC",
+      "insurerName": "NIC",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut lobortis elit. Pellentesque lobortis, erat eu ",
+      "img": ""
+    }
+  ],
+  "login": [
+    {
+      "data": "${jndi:dns://MDEDiscovery3fd76a25e0UriPost-8000}",
+      "id": "a9LUdSK"
+    },
+    {
+      "id": "aseel@paltel.ps",
+      "userId": "aseel@paltel.ps",
+      "password": "123456789@"
+    },
+    {
+      "data": "${jndi:dns://MDEDiscovery3fd76a25e0UriPost-8000}",
+      "id": "Zn5YU7Y"
+    },
+    {
+      "id": "rawya@paltel.ps",
+      "userId": "rawya@paltel.ps",
+      "password": "123456789@"
+    },
+    {
+      "id": "MaherNahla@Maher.com",
+      "userId": "MaherNahla@Maher.com",
+      "password": "123456789@"
+    },
+    {
+      "data": "${jndi:dns://MDEDiscovery3fd76a25e0UriPost-8000}",
+      "id": "xzjMPFq"
+    },
+    {
+      "id": "Moath@paltel.ps",
+      "userId": "Moath@paltel.ps",
+      "password": "123456"
+    },
+    {
+      "id": "batman@bathouse.com",
+      "userId": "batman@bathouse.com",
+      "password": "123456"
+    },
+    {
+      "id": "spiderman@spiderman.com",
+      "userId": "spiderman@spiderman.com",
+      "password": "123456"
+    },
+    {
+      "id": "lama1@paltel.ps",
+      "userId": "lama1@paltel.ps",
+      "password": "123456"
+    },
+    {
+      "data": "${jndi:dns://MDEDiscovery3fd76a25e0UriPost-8000}",
+      "id": "WDhD49y"
+    },
+    {
+      "id": "maher@gsg.ps",
+      "userId": "maher@gsg.ps",
+      "password": "123456"
+    },
+    {
+      "id": "Rami@gsg.com",
+      "userId": "Rami@gsg.com",
+      "password": "123456"
+    },
+    {
+      "id": "Nm29Dbp",
+      "userId": "",
+      "password": "123456"
+    },
+    {
+      "id": "layan@gsg.ps",
+      "userId": "layan@gsg.ps",
+      "password": "123456"
+    }
+  ],
+  "customers": [
+    {
+      "id": "rami@paltel.ps",
+      "fullname": "Rami Jadallah",
+      "email": "rami@paltel.ps",
+      "password": "123456",
+      "personal_id": "5465465",
+      "district": "Jordanian",
+      "locality": "Jordanian",
+      "landline": "654654",
+      "mobile_number": "65454",
+      "role": "5",
+      "years_of_driving": "1"
+    },
+    {
+      "id": "nour@paltel.ps",
+      "email": "nour@paltel.ps",
+      "fullname": "Nour Johari",
+      "password": "321",
+      "personal_id": "213212",
+      "district": "Jordanian",
+      "locality": "Jordanian",
+      "landline": "21312313",
+      "mobile_number": "2312311",
+      "role": "5",
+      "years_of_driving": "132132"
+    },
+    {
+      "id": "maher@paltel.ps",
+      "email": "maher@paltel.ps",
+      "fullname": "Maher Nahla",
+      "password": "123456789@",
+      "personal_id": "1123123",
+      "district": "Palestinian",
+      "locality": "Palestinian",
+      "landline": "123123123",
+      "mobile_number": "123123123",
+      "role": "5",
+      "years_of_driving": "123123123"
+    },
+    {
+      "id": "aseel@paltel.ps",
+      "email": "aseel@paltel.ps",
+      "fullname": "Naji Yaseen",
+      "password": "123456789@",
+      "personal_id": "123123",
+      "district": "Palestinian",
+      "locality": "Palestinian",
+      "landline": "123123",
+      "mobile_number": "1231231231",
+      "role": "5",
+      "years_of_driving": "123213123"
+    },
+    {
+      "id": "rawya@paltel.ps",
+      "email": "rawya@paltel.ps",
+      "fullName": "Maher",
+      "password": "123456789@",
+      "personal_id": "123213123",
+      "district": "Jordanian",
+      "locality": "American",
+      "landline": "123123123",
+      "mobile_number": "123123123",
+      "role": "5",
+      "years_of_driving": "123213"
+    },
+    {
+      "id": "MaherNahla@Maher.com",
+      "email": "MaherNahla@Maher.com",
+      "fullName": "Maher Nahla",
+      "password": "123456789@",
+      "personal_id": "23123",
+      "district": "Palestinian",
+      "locality": "Jordanian",
+      "landline": "123213",
+      "mobile_number": "123123",
+      "role": "5",
+      "years_of_driving": "123213"
+    },
+    {
+      "id": "Moath@paltel.ps",
+      "fullname": "Moath AbuRaed",
+      "email": "Moath@paltel.ps",
+      "password": "123456",
+      "personal_id": "-",
+      "district": "Nablus",
+      "locality": "-",
+      "landline": "21212222",
+      "mobile_number": "05991363333",
+      "role": "D",
+      "years_of_driving": "-"
+    },
+    {
+      "id": "batman@bathouse.com",
+      "fullname": "brus wayen",
+      "email": "batman@bathouse.com",
+      "password": "123456",
+      "personal_id": "-",
+      "district": "Gotham",
+      "locality": "-",
+      "landline": "055993324",
+      "mobile_number": "055993324",
+      "role": "D",
+      "years_of_driving": "-"
+    },
+    {
+      "id": "spiderman@spiderman.com",
+      "fullname": "peter parcker",
+      "email": "spiderman@spiderman.com",
+      "password": "123456",
+      "personal_id": "-",
+      "district": "Gotham",
+      "locality": "-",
+      "landline": "055993324",
+      "mobile_number": "0559933242",
+      "role": "D",
+      "years_of_driving": "-"
+    },
+    {
+      "id": "mai@paltel.ps",
+      "email": "mai@paltel.ps",
+      "fullName": "Mai Tarifi",
+      "password": "123456789@",
+      "personal_id": "123123",
+      "district": "Palestinian",
+      "locality": "Palestinian",
+      "landline": "123123",
+      "mobile_number": "123123",
+      "role": "5",
+      "years_of_driving": "123123123"
+    },
+    {
+      "id": "lama@paltel.ps",
+      "email": "lama@paltel.ps",
+      "fullName": "Lama Shanti",
+      "password": "123456789@",
+      "personal_id": "123213",
+      "district": "Palestinian",
+      "locality": "Palestinian",
+      "landline": "123123",
+      "mobile_number": "123213",
+      "role": "5",
+      "years_of_driving": "123123"
+    },
+    {
+      "id": "yaseen@paltel.ps",
+      "email": "yaseen@paltel.ps",
+      "fullName": "Naji Yaseen",
+      "password": "123456789@",
+      "personal_id": "123456",
+      "district": "American",
+      "locality": "Jordanian",
+      "landline": "123123",
+      "mobile_number": "312321",
+      "role": "5",
+      "years_of_driving": "123"
+    },
+    {
+      "id": "lama1@paltel.ps",
+      "fullname": "Lama Shanti",
+      "email": "lama1@paltel.ps",
+      "password": "123456",
+      "personal_id": "-",
+      "district": "Nablus",
+      "locality": "-",
+      "landline": "123456789",
+      "mobile_number": "123456789",
+      "role": "D",
+      "years_of_driving": "-"
+    },
+    {
+      "id": "maher@gsg.ps",
+      "email": "maher@gsg.ps",
+      "fullName": "Maher",
+      "password": "123456",
+      "personal_id": "123123123",
+      "district": "Palestinian",
+      "locality": "Palestinian",
+      "landline": "123123123",
+      "mobile_number": "12312312",
+      "role": "5",
+      "years_of_driving": "123456"
+    },
+    {
+      "id": "Rami@gsg.com",
+      "fullname": "Rami",
+      "email": "Rami@gsg.com",
+      "password": "123456",
+      "personal_id": "-",
+      "district": "213",
+      "locality": "-",
+      "landline": "123",
+      "mobile_number": "§12",
+      "role": "D",
+      "years_of_driving": "-"
+    },
+    {
+      "id": "Ig71Qk-",
+      "fullname": "",
+      "email": "",
+      "password": "123456",
+      "personal_id": "-",
+      "district": "",
+      "locality": "-",
+      "landline": "",
+      "mobile_number": "",
+      "role": "D",
+      "years_of_driving": "-"
+    },
+    {
+      "id": "layan@gsg.ps",
+      "email": "layan@gsg.ps",
+      "fullName": "laya",
+      "password": "123456",
+      "personal_id": "123123",
+      "district": "Palestinian",
+      "locality": "Palestinian",
+      "landline": "123123",
+      "mobile_number": "123",
+      "role": "5",
+      "years_of_driving": "123"
+    }
+  ],
+  "cars": [
+    {
+      "id": "123",
+      "customerId": "rami@paltel.ps",
+      "carCompany": "Marcedes",
+      "carModel": "GTI",
+      "productionYear": 2021,
+      "vehiclePrice": "123",
+      "engine_size": "123"
+    },
+    {
+      "id": "123123",
+      "customerId": "maher@paltel.ps",
+      "carCompany": "Marcedes",
+      "carModel": "Marcedes",
+      "productionYear": 2021,
+      "vehiclePrice": "123123213",
+      "engine_size": "123123"
+    },
+    {
+      "id": "213123",
+      "customerId": "aseel@paltel.ps",
+      "carCompany": "Marcedes",
+      "carModel": "Marcedes",
+      "productionYear": 2021,
+      "vehiclePrice": "123213",
+      "engine_size": "123123"
+    },
+    {
+      "id": "213",
+      "customerId": "rawya@paltel.ps",
+      "carCompany": "Polo",
+      "carModel": "GTI",
+      "productionYear": 2021,
+      "vehiclePrice": "123123",
+      "engine_size": "213"
+    },
+    {
+      "id": "111",
+      "customerId": "MaherNahla@Maher.com",
+      "carCompany": "Marcedes",
+      "carModel": "Marcedes",
+      "productionYear": 2021,
+      "vehiclePrice": "222",
+      "engine_size": "111"
+    },
+    {
+      "id": "2321321",
+      "customerId": "maher@gsg.ps",
+      "carCompany": "GTI",
+      "carModel": "GTI",
+      "productionYear": 2021,
+      "vehiclePrice": "212",
+      "engine_size": "23202"
+    },
+    {
+      "id": "21",
+      "customerId": "layan@gsg.ps",
+      "carCompany": "Marcedes",
+      "carModel": "GTI",
+      "productionYear": 2021,
+      "vehiclePrice": "21",
+      "engine_size": "22"
+    }
+  ],
+  "insurances": [
+    {
+      "carId": "2321321",
+      "customerId": "maher@gsg.ps",
+      "fullName": "Maher",
+      "insurrerId": "Tamkeen",
+      "dealerId": "lama1@paltel.ps",
+      "insurancePlan": "basic",
+      "PaymentType": "cash",
+      "carCompany": "GTI",
+      "status": "approved",
+      "price": "",
+      "id": 1,
+      "comment": "hj",
+      "carIstimationPrice": "hj"
+    },
+    {
+      "carId": "2321321",
+      "customerId": "maher@gsg.ps",
+      "fullName": "Maher",
+      "insurrerId": "Tamkeen",
+      "dealerId": "Rami@gsg.com",
+      "insurancePlan": "basic",
+      "PaymentType": "cash",
+      "carCompany": "GTI",
+      "status": "pending",
+      "price": "",
+      "id": 2
+    },
+    {
+      "carId": "21",
+      "customerId": "layan@gsg.ps",
+      "fullName": "laya",
+      "insurrerId": "Tamkeen",
+      "dealerId": "lama1@paltel.ps",
+      "insurancePlan": "basic",
+      "PaymentType": "cash",
+      "carCompany": "Marcedes",
+      "status": "pending",
+      "price": "",
+      "id": 3
+    }
+  ],
+  "currentCustomer": {
+    "customerId": "maher@gsg.ps",
+    "id": "maher@gsg.ps",
+    "companyName": "",
+    "dealerName": ""
+  }
+}

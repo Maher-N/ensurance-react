@@ -1,0 +1,51 @@
+.cards_Wrapper {
+    height: 146px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    display: flex;
+    gap: 45px;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards_Wrapper .text {
+    text-align: center;
+    padding: 10px;
+}
+
+.cards_Wrapper .text .title {
+    font-family: Tajawal;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #000000;
+    text-align: right;
+}
+
+.cards_Wrapper .text p {
+    font-family: Tajawal;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #A0A0A0;
+    text-align: right;
+}
+
+.cards_Wrapper img {
+    padding: 10px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .cards_Wrapper {}
+
+    .bVoXXg {
+        width: 200px;
+    }
+
+}

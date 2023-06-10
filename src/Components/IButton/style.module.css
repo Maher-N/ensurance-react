@@ -1,0 +1,9 @@
+.Ibutton{
+    font-size : 16px;
+    color:#fff;
+    border-radius: 5px;
+    background:  linear-gradient(90deg, #00A0D7 0%, #96C92E 100%);
+    border: 0px;
+    padding: 6px 10px;
+    font-family: "Baloo_Thambi_SemiBold"; 
+} 

@@ -1,0 +1,83 @@
+.body {
+    height: 684px;
+}
+
+.text {
+    position: relative;
+    text-align: center;
+    top: 20px;
+}
+
+.text .title {
+
+    font-family: Baloo_Thambi2_Regular;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #2274A5;
+}
+
+.text .subTitle {
+    font-family: Baloo_Thambi2_Regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    color: #3C5984;
+}
+
+.left_circle_cards {
+    width: 39px;
+    height: 39px;
+    position: absolute;
+    background-image: url('../../images/left_circle_cards.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 946px;
+    left: 4% !important;
+}
+
+.left_rectangle_cards {
+    width: 60px;
+    height: 30px;
+    position: absolute;
+    background-image: url('../../images/left_rectangle_cards.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 1590px;
+    left: 0;
+}
+
+.right_rectangle_cards {
+    width: 70px;
+    height: 30px;
+    position: absolute;
+    background-image: url('../../images/right_rectanfle_cards.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 1148px;
+    right: 0px !important;
+}
+
+
+.Insurences_cards {
+    position: absolute;
+    height: 178px;
+    left: 15%;
+    right: 15%;
+    top: 1051px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10.5%;
+    justify-content: center;
+}
+
+.available_Insurences {
+    position: absolute;
+    top: 1359px;
+
+}

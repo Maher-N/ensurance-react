@@ -1,0 +1,29 @@
+.red { 
+    color:red;
+    background-color: yellow;
+}
+
+.iButton{
+    margin-top: 20%;
+    display: flex;
+    justify-content: end;
+}
+.approveButton{
+    width: 124px; 
+    height: 28px;
+    background: linear-gradient(90deg, #00A0D7 0%, #96C92E 100%);
+    border-radius: 5px;
+    border-width: 0px;
+    color: white;
+    margin-right: 30px;
+}
+.cancelButton{
+    width: 124px; 
+    height: 28px;
+    background: #d700ac;
+    border-radius: 5px;
+    border-width: 0px;
+    color: white;
+    margin-right:  30px;
+
+}

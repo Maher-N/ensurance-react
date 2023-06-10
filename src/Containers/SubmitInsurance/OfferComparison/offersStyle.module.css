@@ -1,0 +1,38 @@
+.tableHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+td {
+  text-align: center;
+  font-family: Baloo_Thambi_Bold;
+
+}
+.separator {
+  background: #f5f5f5;
+  text-align: left;
+}
+.leftText {
+  text-align: left;
+  font-family: Baloo_Thambi_Bold;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 100%;
+  color: #3c5984;
+}
+
+.pinkHeader {
+  font-family: Baloo_Thambi_Bold;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  color: #e83f6f;
+}
+
+.Imgwidth{
+  width: 50px;
+}

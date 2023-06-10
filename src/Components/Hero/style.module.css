@@ -1,0 +1,156 @@
+.hero {
+    width: 100%;
+    height: 861px;
+    background-color: #F5F5F5;
+}
+
+.left_icon_header {
+    width: 50px;
+    height: 20px;
+    position: absolute;
+    background-image: url('../../images/left_icon_header.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 662.8px;
+    left: 0;
+}
+
+.right_icon_header {
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    background-image: url('../../images/right_icon_header.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 180px;
+    right: 0 !important;
+}
+
+.center_icon_header {
+    width: 39px;
+    height: 39px;
+    position: absolute;
+    background-image: url('../../images/center_circle_icon.png');
+    top: 333px;
+    left: 48% !important;
+}
+
+.left_centr_icon_header {
+    width: 35.2px;
+    height: 20px;
+    position: absolute;
+    background-image: url('../../images/left_centr_icon_header.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 169px;
+    left: 26% !important;
+}
+
+.bottom_icon_header {
+    width: 35.2px;
+    height: 20px;
+    position: absolute;
+    background-image: url('../../images/left_centr_icon_header.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 811px;
+    left: 40% !important;
+}
+
+.text {
+    position: absolute;
+    top: 242px;
+    left: 10%;
+}
+
+.text .title {
+    font-family: Baloo_Thambi_Bold;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 91.1%;
+    color: #505050;
+}
+
+.text .subTitle {
+    font-family: Baloo_Thambi2;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    color: #BBBBBB;
+    position: relative;
+    top: 20px;
+}
+
+.text .buttons {
+    display: flex;
+    gap: 10px;
+    position: relative;
+    top: 54px;
+}
+
+.text .buttons .subscribe {
+    width: 45%;
+    height: 55px;
+    background: linear-gradient(271.31deg, #96C92E 1.16%, #00A0D7 105.96%);
+    border-radius: 5px;
+    font-family: Baloo_Thambi2_Regular;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 37px;
+    text-transform: none;
+    box-shadow: none !important;
+
+}
+
+
+.text .buttons .login {
+    width: 30%;
+    height: 55px;
+    border: double 2px transparent;
+    border-radius: 5px;
+    background-image: linear-gradient(#F5F5F5, #F5F5F5), radial-gradient(circle at top left, #96C92E -4.65%, #00A0D7 98.14%);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    text-align: center;
+    box-shadow: none !important;
+}
+
+.text .buttons .login span {
+    font-family: Baloo_Thambi2_Regular;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 37px;
+    background: linear-gradient(91.78deg, #00A0D7 30.09%, #96C92E 109.46%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-emphasis-color: transparent;
+    text-transform: none;
+}
+
+.person_header {
+    position: absolute;
+    background-image: url('../../images/person_header.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 450px;
+    height: 649px;
+    right: 1%;
+    top: 203px;
+}
+
+@media only screen and (max-width: 991px) {
+    .person_header {
+        display: none;
+    }
+
+    .center_icon_header {
+        left: 80% !important;
+
+    }
+
+}

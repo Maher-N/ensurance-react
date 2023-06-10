@@ -1,0 +1,83 @@
+.container {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.Row {
+    height: inherit !important;
+}
+
+.Col {
+    margin: 0;
+    padding: 0;
+    height: inherit;
+}
+
+.title_alignment {
+    top: 12px;
+    left: 43px;
+}
+
+.login_form {
+    position: relative;
+    top: 100px;
+    left: 25%;
+    width: 50%;
+}
+
+span {
+    font-family: Baloo_Thambi_Regular;
+    position: relative;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: #003C71;
+}
+
+.email_text {
+    top: 31px;
+}
+
+.email_input {
+    margin-top: 40px;
+}
+
+.submit {
+    height: 50px !important;
+    border: double 2px transparent;
+    border-radius: 5px !important;
+    margin-left: 10% !important;
+    width: 80% !important;
+}
+
+.sperator_wrapper_ {
+    gap: 10px;
+    top: 140px;
+    left: 18%;
+}
+
+.seprator {
+    border-top: 1px solid #928f8f;
+    width: 35% !important;
+}
+
+.Register_text {
+    position: relative !important;
+    top: 140px !important;
+    text-align: center;
+}
+
+.error_message {
+    position: relative;
+    top: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .Col {
+        display: none;
+    }
+}

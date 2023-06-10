@@ -1,0 +1,49 @@
+.requests {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    
+
+
+}
+
+.reqTitle {
+    align-self: center;
+    height: 25px;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 212%;
+    color: #E83F6F;
+}
+
+.reqList {
+    overflow: auto;
+    max-height: 400px; 
+    padding-left: 0;
+}
+
+
+.reqItem {
+    margin: 0;
+    padding-left: 16px;
+    font-style: normal;
+    font-weight: 700;
+    color: #3C5984;
+    font-size: 14px;
+    line-height: 237.5%;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.rereqSelectedItem{
+    margin: 0;
+    padding-left: 16px;
+    font-style: normal;
+    font-weight: 700;
+    color: #FFD100;
+    font-size: 14px;
+    line-height: 237.5%;
+    list-style-type: none;
+    background: #3C5984;
+}
