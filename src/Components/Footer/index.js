@@ -86,11 +86,6 @@ function Footer() {
                       Pricing
                     </a>
                   </li>
-                  <li>
-                    <a href="#!" className="text-white">
-                      Testimonial
-                    </a>
-                  </li>
                 </ul>
               </MDBCol>
 
@@ -127,27 +122,12 @@ function Footer() {
                 <ul className="list-unstyled mb-0">
                   <li>
                     <a href="#!" className="text-white">
-                      Project managment
+                      New Insurance
                     </a>
                   </li>
                   <li>
                     <a href="#!" className="text-white">
-                      Time tracker
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#!" className="text-white">
-                      Time schedule
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#!" className="text-white">
-                      Lead generate
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#!" className="text-white">
-                      Remote Collaboration
+                      Order tracker
                     </a>
                   </li>
                 </ul>
